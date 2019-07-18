@@ -1,0 +1,16 @@
+git config --global user.name "name" //全局名称
+git config --global user.email "xxxx@email.com" //全局邮件地址
+
+mkdir <directionary> //创建目录 版本库、仓库、repository
+cd <directionary> //切换工作区至目录
+pwd //显示工作目录 print working directionary
+
+git init //变成git可管理的目录
+
+git add <file> //添加文件至仓库 可添加多个<> <> <>
+git commit -m "message" //提交文件至仓库并记录信息
+'''
+$ git add file1.txt
+$ git add file2.txt file3.txt
+$ git commit -m "add 3 files."
+'''
